@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Anaheim&family=Roboto:wght@400;700&display=swap');
+
+
+
+body{
+    background-color: black;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+header.header-container{
+
+        /* margin: 2em 4em 3em 4em; */
+        /* margin: 0 auto; */
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.354);
+    }
+
+nav.desktop-nav ul{
+
+    margin: 1em;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-size: 25px;
+
+}
+
+nav.desktop-nav ul li a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    margin: 1em;
+}
+
+nav.desktop-nav{
+    order: 2;
+}
+
+
+img.img-logo{
+    max-width: 150px;
+}
+
+div.user-img{
+    order: 3;
+    margin: 1em;
+}
+
+img.user-icon{
+    max-width: 75px;
+;
+}
+
+
+/* .navigation.responsive{
+    display:block
+} */
+
+/* .navigation.li{
+    display: block;
+} */
+/* .responsive li{
+    display: block;
+}
+
+.responsive ul{
+    position: absolute;
+    width: 100%;
+}
+
+.responsive a {
+    background-color: aquamarine;
+    padding-left: 3rem;
+} */
+
+.hidden {
+    display: none;
+}
+
+.toggle-btn {
+    padding: 1em;
+}
+
+.recipes-container{
+    color: #FFF;
+}
+
+@media screen and (max-width: 800px){
+
+    nav.desktop-nav{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+        display: block;
+        font-size: 30px;
+    }
+
+}
