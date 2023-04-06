@@ -7,6 +7,7 @@ body{
     font-size: 20px;
     margin: 0;
     padding: 0;
+    background-image: url("../images/green-vegetables-on-brown-wooden-chopping-board-3952047.png");
 }
 
 header.header-container{
@@ -88,8 +89,48 @@ img.user-icon{
     padding: 1em;
 }
 
-.recipes-container{
+
+ /* =============== Recipe Cards =============== */
+main{
     color: #FFF;
+    font-family: 'Anaheim', sans-serif;
+}
+
+.recipe a{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.recipe p{
+    background-color: #1E1E24;
+    opacity: .7;
+    color: #fff;
+    margin: 0;
+    padding: 1em;
+
+}
+
+.recipe img{
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.recipe h2{
+    background-color: #1E1E24;
+    opacity: .7;
+    color: #fff;
+    margin: 0;
+    padding: 1em;
+
+}
+
+.recipe{
+    display: grid;
+    text-align: center;
+    box-shadow: 1px 1px (#e0e0e0);
+    border: 1px solid #fff;
+    margin: 1em;
 }
 
 @media screen and (max-width: 800px){

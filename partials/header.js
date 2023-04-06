@@ -31,7 +31,7 @@ function buildHeader(){
 
     // Recipes Page Link
     const recipes = document.createElement('li');
-    recipes.innerHTML = '<a href="recipes.html">Recipes</a>';
+    recipes.innerHTML = '<a href="./recipes.html">Recipes</a>';
     ul.appendChild(recipes);
 
     // About Us    
