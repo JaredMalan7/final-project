@@ -26,17 +26,17 @@ function buildHeader(){
 
     // Home Page Link
     const home = document.createElement('li');
-    home.innerHTML = '<a href="index.html">Home</a>';
+    home.innerHTML = '<a href="./index.html">Home</a>';
     ul.appendChild(home);
 
     // Recipes Page Link
     const recipes = document.createElement('li');
-    recipes.innerHTML = '<a href="./recipes.html">Recipes</a>';
+    recipes.innerHTML = '<a href="./pages/recipes.html">Recipes</a>';
     ul.appendChild(recipes);
 
     // About Us    
     const about = document.createElement('li');
-    about.innerHTML = '<a href="about-us.html">About Us</a>';
+    about.innerHTML = '<a href="./pages/about-us.html">About Us</a>';
     ul.appendChild(about);
 
 
